@@ -1,8 +1,10 @@
 import { social } from "../data/social.js";
+import SignalBackground from "./SignalBackground.jsx";
 
 export default function Hero() {
   return (
     <header className="hero container">
+      <SignalBackground />
       <div className="hero-eyebrow">// SYSTEM ONLINE</div>
       <h1 className="hero-name">Shubham Awasthi</h1>
       <p className="hero-role">IoT & Full Stack Developer</p>

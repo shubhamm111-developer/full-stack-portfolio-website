@@ -376,3 +376,22 @@ body {
   color: var(--accent-2);
   text-decoration: none;
 }
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.signal-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+}
+
+.hero > *:not(.signal-bg) {
+  position: relative;
+  z-index: 1;
+}
