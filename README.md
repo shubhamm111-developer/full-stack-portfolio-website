@@ -15,7 +15,7 @@ A personal portfolio built with the MERN stack — designed around an IoT/hardwa
 telemetry" aesthetic: dark panel background, amber/cyan signal accents, sections framed as
 hardware modules.
 
-**🔗 Live demo:** _(add link after deployment)_
+**🔗 Live demo:** _(https://full-stack-portfolio-website-tau.vercel.app)_
 
 ## ✨ Features
 
